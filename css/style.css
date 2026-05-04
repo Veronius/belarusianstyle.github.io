@@ -160,13 +160,11 @@ img {
   .main-btn {
     padding: 16px 22px;
   }
-    .section-title {
+  .section-title {
     font-size: 24px;
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 }
-
-
 
 /* Меню сайта */
 
@@ -190,16 +188,29 @@ img {
   max-height: 60px;
 }
 
-.main-header .logo-text {
+.main-header .logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.main-header .logo-text-vertical {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.main-header .logo-text-vertical span {
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--color-text-dark);
   letter-spacing: 1px;
 }
 
-.main-header .logo-text span {
-  color: var(--color-accent-button);
+.main-header .logo-text-vertical span:last-child {
+  color: #8b0000;
 }
 
 .main-header .nav-list {
@@ -477,7 +488,6 @@ img {
   background-color: var(--color-bg-antique);
 }
 
-
 .text-section h4 {
   font-size: 26px;
   line-height: 30px;
@@ -496,7 +506,6 @@ img {
 }
 
 @media (max-width: 767px) {
-
   .text-section {
     padding: 40px 0;
   }
@@ -591,7 +600,6 @@ img {
 }
 
 @media (max-width: 767px) {
-
   .timeline-section {
     padding: 40px 0;
   }
@@ -700,7 +708,7 @@ img {
   .library-section {
     padding: 40px 0;
   }
-  .library-section .filter-group  {
+  .library-section .filter-group {
     margin-bottom: 30px;
   }
   .library-section .grid-item {
@@ -940,7 +948,6 @@ img {
 }
 
 @media (max-width: 850px) {
-
   .section-author {
     padding: 50px 0;
   }

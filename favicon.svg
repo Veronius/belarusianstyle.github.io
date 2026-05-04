@@ -1,0 +1,8 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="4" fill="#f4f1ea"/> <!-- Фон у колер паперы -->
+  <!-- Спрашчаны сілуэт вежы -->
+  <path d="M16 4L24 18H8L16 4Z" fill="#2c2e35"/>
+  <rect x="8" y="18" width="16" height="6" fill="#2c2e35"/>
+  <!-- Арнамент -->
+  <path d="M16 16L19 20L16 24L13 20L16 16Z" fill="#8b0000"/>
+</svg>
