@@ -488,7 +488,7 @@ img {
   background-color: var(--color-bg-antique);
 }
 
-.text-section h4 {
+.text-section h3 {
   font-size: 26px;
   line-height: 30px;
 }
@@ -497,11 +497,11 @@ img {
   margin-top: 16px;
 }
 
-.text-section p + h4 {
+.text-section p + h3 {
   margin-top: 32px;
 }
 
-.text-section h4 + p {
+.text-section h3 + p {
   margin-top: 16px;
 }
 
@@ -672,6 +672,10 @@ img {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+}
+
+.library-section .grid-item h3 {
+  font-size: 16px;
 }
 
 .library-section .grid-item img {

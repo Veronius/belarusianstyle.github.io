@@ -117,6 +117,3 @@ window.onclick = (event) => {
 document.getElementById("modalImg").onclick = function() {
     window.open(this.src, '_blank');
 };
-
-
-
