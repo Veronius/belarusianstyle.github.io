@@ -70,7 +70,7 @@ imagesLoaded(grid, function() {
     });
 });
 
-// Логіка фільтрацыі дял медыятэкі
+// Логіка фільтрацыі для медыятэкі
 
 var filterButtons = document.querySelectorAll('.filter-btn');
 filterButtons.forEach(function(button) {
